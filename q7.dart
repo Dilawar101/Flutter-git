@@ -1,8 +1,7 @@
 import 'dart:math';
 
 void main() {
-  double number =
-      25; // Replace 25 with any number for which you want to find the square root
+  double number = 25; //we can change it
   double squareRoot = sqrt(number);
   print('The square root of $number is $squareRoot');
 }
