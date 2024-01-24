@@ -32,9 +32,14 @@ main() {
   ];
   for (var i = 0; i < name.length; i++) {
     if (i == 2) {
+      //is 2 ke jaga ham name.length laga sakten hain q ke agar is ma koi aur acha aaye ga
       print(name[i]["age"]);
     } else {
       print(name[i]["name"]);
     }
   }
 }
+// bool loopchalega = false;
+  // do {
+  //   print("containe");
+  // } while (loopchalega);
