@@ -1,9 +1,18 @@
 void main() {
-  List num = [24, 43, 5, 9, 42, 90, 2, 4, 6, 8, 9, 6, 4, 1];
+  List num = [
+    24,
+    43,
+    5,
+    9,
+    42,
+    7,
+    2,
+    4,
+  ];
   List even = [];
   List odd = [];
 
-  for (var i = 0; i < num.length; i = i++) {
+  for (var i = 0; i < num.length; i = i + 1) {
     if (num[i] % 2 == 0) {
       even.add(num[i]);
     } else {

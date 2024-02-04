@@ -39,7 +39,3 @@ main() {
     }
   }
 }
-// bool loopchalega = false;
-  // do {
-  //   print("containe");
-  // } while (loopchalega);
