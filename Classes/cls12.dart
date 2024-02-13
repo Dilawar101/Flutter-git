@@ -1,15 +1,9 @@
-//First class of  "FUNCTION" ma line of code hoti hain us ma koi na koi kam perform ho raha hota ha.aur ham us function ke naam se uase call kr sakte hain.
-void main() {
-//Function MAIN ma kabi bi nahi bane ga haamesha MAIN se bahir bane ga aur MAIN ma call ho ga.
-  markshet();
-  markshet();
-}
+//2nd Class of function
+// void main() {}
 
-markshet() {
-  num per = 67;
-  if (per >= 50) {
-    print("pass");
-  } else {
-    print("fail");
-  }
-}
+// SumOfTwoNumbers() {
+//   int num1 = 6;
+//   int num2 = 9;
+//   int reult = num2 - num1;
+//   print(""); //print sirf dart yan Debuging
+// }

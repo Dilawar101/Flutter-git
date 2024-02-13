@@ -1,24 +1,15 @@
+//First class of  "FUNCTION" ma line of code hoti hain us ma koi na koi kam perform ho raha hota ha.aur ham us function ke naam se uase call kr sakte hain.
 void main() {
-  List num = [
-    24,
-    43,
-    5,
-    9,
-    42,
-    7,
-    2,
-    4,
-  ];
-  List even = [];
-  List odd = [];
+//Function MAIN ma kabi bi nahi bane ga haamesha MAIN se bahir bane ga aur MAIN ma call ho ga.
+  markshet();
+  markshet();
+}
 
-  for (var i = 0; i < num.length; i = i + 1) {
-    if (num[i] % 2 == 0) {
-      even.add(num[i]);
-    } else {
-      odd.add(num[i]);
-    }
+markshet() {
+  num per = 67;
+  if (per >= 50) {
+    print("pass");
+  } else {
+    print("fail");
   }
-  print(even);
-  print(odd);
 }

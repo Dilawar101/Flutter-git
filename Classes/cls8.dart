@@ -1,22 +1,31 @@
-//Topic Lists
-main() {
-  List<String> stdnames = [
-    "ali",
-    "anas",
-    "aqib",
-    "asif"
-  ]; //is ma jahan pr string likha ha wo zaroori nahi assal ma list tamam kisam ke cheezain la sakta ha.string sirf (abc) ko hi la ga aghar int karen ga to (23) la ga.
-  List<int> ans = [2, 3, 4, 5, 7];
-  print(stdnames);
-  print(stdnames[3]); // [] for specific Index Value
-  //-----------------------------------------------
-  print(ans);
-  print(ans[4]); // [] for specific Index Value
-  //-----------------------------------------------
-  //Index ke length check karne ka liye.
-  print(ans.length);
-  //-----------------------------------------------
-  stdnames.replaceRange(
-      0, 2, ["a", "b", "c"]); //very rarely use (start, end, replacements)
-  print(stdnames);
+//List & Map
+void main() //{
+//   Map<dynamic, dynamic> studentInfo = {
+//     "n": "anas",
+//     1: "fani",
+//     // "a": "22f",
+//     "o": 54,
+//     "Hobies": [23, "asif", 51]
+//   };
+//   print(studentInfo);
+
+//   studentInfo.putIfAbsent("navid", () => "ancent");
+//   print(studentInfo);
+// }
+//Map Question practice
+{
+  dynamic abc = [
+    [3, 4, 5],
+    {
+      "hello": {
+        2: ["abc", 2, 3],
+        1: {
+          "1": 0,
+          1: "x",
+        },
+      }
+    },
+    ["1"],
+  ];
+  print(abc[1]["hello"][2]);
 }
