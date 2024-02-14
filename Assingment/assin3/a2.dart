@@ -1,6 +1,6 @@
 void main() {
   List<String> days = [];
-  print("This List is empty T/F :");
+  print("This List is empty (T/F) :");
   print(days.isEmpty);
   days.addAll([
     "Monday",
@@ -12,6 +12,6 @@ void main() {
     "Sunday"
   ]);
   print(days);
-  print("This List is empty T/F :");
+  print("This List is empty (T/F) :");
   print(days.isEmpty);
 }
